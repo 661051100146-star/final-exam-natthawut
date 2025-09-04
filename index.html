@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Nav Start -->
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white " href="index.html">นัฐวุฒิ การเกษตร</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">หน้าหลัก</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                สินค้า
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="product1.html">การเกษตรสำหรับคนรวย</a>
+                                </li>
+                                <li><a class="dropdown-item " href="product2.html">การเกษตรสำหรับงบชาวบ้าน</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="product3.html">อุปกรณ์เสริมนะจ๊ะ</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="about.html">เกี่ยวกับเรา</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="contact.html">ติดต่อเรา</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- close nav -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/B1.avif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/B2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/B3.avif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6"> <img src="img/SellAllready.webp"
+                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                        loading="lazy"> </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-center text-body-emphasis lh-1 mb-3">แนะนำสินค้าขายดี
+                    </h1>
+                    <p class="lead">แทรกเตอร์รุ่นบี ที่สุดสำหรับงานบำรุงรักษาทางการเกษตร ไม่ว่าจะเป็นงาน
+                        กำจัดวัชพืช พ่นฮอร์โมน ไถพรวนดิน สับคลุกใบอ้อยหรือแม้แต่การปรับหน้าดิน</p>
+                   
+                </div>
+            </div>
+<!-- ปิดHero -->
+ <!-- เริ่มtextแนะนำ -->
+<div class="row mt-4">
+    <div class="col-md-12">
+      <h2 class="text-center">สินค้าขายดี</h2>
+      <p class="text-center"> เรามีสินค้าเกี่ยวกับการเกษตรมาจำหน่ายจำนวนมากเนื่องจากขายออกจำนวนนิดหน่อย</p>
+
+
+    </div>
+
+  </div>
+<!-- ปิดText แนะนำ -->
+
+
+
+
+
+
+            <!-- สินค้าขายดี -->
+            <div class="contaiter py-4">
+                <div class="row g-3 text-center">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img
+                        src="img/KD.avif"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">รถไว้วิ่งเล่น</h5>
+                        <p class="card-text">วิ่งได้ 2 กิโลเท่านั้น.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                          data-bs-whatever="@mdo">สั่งซื้อสินค้า</button>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img
+                        src="img/KD2.webp"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">รถไถ รึเปล่าน๊าาา</h5>
+                        <p class="card-text">สำหรับคนที่อยากเปิดประสบประการณ์ใหม่</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                          data-bs-whatever="@mdo">สั่งซื้อสินค้า</button>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img
+                        src="img/KD3.avif"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">90 แรงม้า อัลเลาะ</h5>
+                        <p class="card-text">แรงช่วงต้น นอกนั้นดับ</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                          data-bs-whatever="@mdo">สั่งซื้อสินค้า</button>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img
+                        src="img/KD3.avif"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">100 แรงม้า อัลเลาะ</h5>
+                        <p class="card-text">แรงกว่า 90 แรงม้า แต่ทุกอย่างเหมือนกัน</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                          data-bs-whatever="@mdo">สั่งซื้อสินค้า</button>
+        
+                      </div>
+                    </div>
+                  </div>
+<!-- ปิดสินค้าขายดี -->
+
+
+
+
+
+<!-- footer -->
+            <div class="contaiter py-5">
+                <div class="row g-3 text-center">
+             <footer class="py-3 my-4 bg-success">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">หน้าแรก</a></li>
+                    <li class="nav-item"><a href="product1.html" class="nav-link px-2 text-white">สินค้า</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link px-2 text-white">เกี่ยวกับเรา</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">ติดต่อเรา</a></li>
+                </ul>
+                <p class="text-center text-white">© 2025 Company, Inc</p>
+            </footer>
+
+
+        </div>
+<!-- foot off -->
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
